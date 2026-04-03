@@ -15,7 +15,7 @@ int main(){
              << "5. Print a game " << endl
              << "6. Load a file to the game library" << endl
              << "7. Save a file" << endl
-             << "8. Exit the program";
+             << "8. Exit the program" << endl;
         cin >> choice;
 
         if (choice == 1){
@@ -78,14 +78,14 @@ int main(){
 
         else if(choice == 6){
             string file;
-            cout << "Enter the name of the file";
+            cout << "Enter the name of the file: ";
             cin >> file;
             lib.load(file);
         }
 
         else if(choice == 7){
             string file;
-            cout << "Enter the name of the file";
+            cout << "Enter the name of the file: ";
             cin >> file;
             lib.save(file);
         }

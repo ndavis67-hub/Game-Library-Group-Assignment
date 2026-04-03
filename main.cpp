@@ -8,7 +8,7 @@ int main(){
 
     while(choice != 8){
         cout << "Welcome to the Game Library. Please select one of these options: " << endl
-             << "1. Insert a name into the library (sorted)" << endl
+             << "1. Insert a game into the library (sorted)" << endl
              << "2. Find genre in library" << endl
              << "3. Find game in library" << endl
              << "4. Delete game from library " << endl

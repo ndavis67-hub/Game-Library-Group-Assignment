@@ -21,12 +21,12 @@ Run the program using the (./gamelib) command in linux based systems
 8. **Exit** - Exit the program
 
 ## File Format
-title
-publisher
-genre
-hours_played
-price
-year_released
+- title
+- publisher
+- genre
+- hours_played
+- price
+- year_released
 
 ## Files Included
 - main.cpp
